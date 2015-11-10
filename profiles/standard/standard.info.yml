@@ -1,0 +1,35 @@
+name: Standard
+type: profile
+description: 'Standard profile.'
+core: 8.x
+
+# Optional: Declare your installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+distribution:
+  name: Standard Profile
+
+# Required modules
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contact
+  - edit
+  - help
+  - image
+  - number
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - field_ui
+  - views
+  - views_ui
+  - editor
+  - ckeditor
